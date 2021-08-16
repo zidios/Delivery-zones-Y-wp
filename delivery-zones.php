@@ -57,7 +57,6 @@ function delivery_zones_settings( $settings, $current_section ) {
 			'desc' => 'Настройки автоматического определения зоны и стоимости доставки на странице оплаты заказа',
 			'id' => 'deliveryzones'
 		);
-		// Add second text field option
 		$new_settings[] = array(
 			'name'     => 'API ключ Яндекса',
 			'desc_tip' => 'Ключ генерируется в Яндексе',
